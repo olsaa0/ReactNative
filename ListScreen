@@ -1,0 +1,58 @@
+import React from "react";
+import { Text, Stylesheet, View, FlatList} from "react-native-web";
+
+const students = [
+    {name: 'Kiki' , surname: 'Sahiti' , age : '20'},
+    {name: 'Olsa' , surname: 'Pireva' , age : '16'},
+    {name: 'Xhuno' , surname: 'Pireva' , age : '6'},
+    {name: 'Jora' , surname: 'Tahiri' , age : '16'},
+];
+
+const ListScreen = () => {
+    return(
+        <View style={styles.container}>
+            <Text style={styles.TextStyle}>List of People</Text>
+            <FlatList
+            horizontal={true}
+            showHorizontalScrollIndicator={false}
+            keyExtractor={(student) => student.name}
+            data={students}
+            renderItem={({item}) => (
+                <View style={styles.studentWrapper}>
+                    <Text style={styles.studentText}>
+                        {item.name}{item.surname} - {item.age}
+                    </Text>
+                </View>
+            )}
+            />
+            </View>
+    );
+};
+
+
+const styles = StyleSheet.create({
+    container: {
+        marginTop: 50,
+        padding: 16,
+    },
+    textStyle: {
+        fontSize: 22,
+        fontWeight: 'bold',
+        marginBottom: 16,
+    },
+    studentWrapper: {
+        backgroundColor: '#4A90E2',
+        borderRadius: 10,
+        padding: 14 ,
+        marginRight: 12,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    studentText: {
+        color: '#fff',
+        fontsize: 15,
+        fontWright: '500'
+    },
+});
+
+export default ListScreen;

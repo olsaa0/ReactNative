@@ -15,15 +15,15 @@ const Challenge = () => {
             <Text style={styles.subTextStyle}>*~~*~~*~~*~~*</Text>
             
             <FlatList
-                // 1. Removed horizontal={true} to make it vertical
-                // 2. Changed showsHorizontalScrollIndicator to showsVerticalScrollIndicator
+               
+                
                 showsVerticalScrollIndicator={false} 
                 keyExtractor={(student) => student.name}
                 data={students}
-                // 3. Changed width to height for vertical spacing between cards
+               
                 ItemSeparatorComponent={() => <View style={{ height: 12 }} />}
                 renderItem={({ item }) => (
-                    // 4. Removed the fixed width constraint so cards stretch fully
+                    
                     <View style={styles.tableContainer}>
                         <View style={styles.tableRow}>
                             <View style={styles.tableCellLeft}>
@@ -52,7 +52,7 @@ const Challenge = () => {
 
 const styles = StyleSheet.create({   
     container: {
-        flex: 1, // Added flex 1 to allow the vertical list to scroll properly
+        flex: 1, 
         marginTop: 50,
         padding: 20,
         backgroundColor: '#ffafaf',
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
         marginBottom: 24,
     },
     tableContainer: {
-        // Removed width: 260 so cards span across the screen nicely
+       
         backgroundColor: '#ffffff', 
         borderRadius: 16, 
         paddingVertical: 8,

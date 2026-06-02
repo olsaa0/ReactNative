@@ -9,13 +9,13 @@ const stack = createStackNavigator();
 
 export default function App() {
   return (
-    <Navigationcontainer>
+    <NavigationContainer>
       <Stack.Navigator initialRouteName="First">
         |<Stack.Screen name="First" component={FirstScreen} />
         <Stack.Screen name="Second" component={SecondScreen} />
       </Stack.Navigator>
     <StatusBar style="auto" />
-    </Navigationcontainer>
+    </NavigationContainer>
     
   );
 }

@@ -14,6 +14,7 @@ export default function App() {
         |<Stack.Screen name="First" component={FirstScreen} />
         <Stack.Screen name="Second" component={SecondScreen} />
       </Stack.Navigator>
+    <StatusBar style="auto" />
     </Navigationcontainer>
     
   );

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "country": "Japan",
+    "capital": "Tokyo",
+    "description": "An island nation in East Asia known for its dense cities, imperial palaces, and advanced technology."
+  },
+  {
+    "id": 2,
+    "country": "Brazil",
+    "capital": "Brasília",
+    "description": "The largest country in South America, famous for its Amazon basin, vibrant culture, and vast coastline."
+  },
+  {
+    "id": 3,
+    "country": "Italy",
+    "capital": "Rome",
+    "description": "A European country with a long Mediterranean coastline, deeply rooted in history, art, and world-renowned cuisine."
+  },
+  {
+    "id": 4,
+    "country": "Canada",
+    "capital": "Ottawa",
+    "description": "A North American country stretching from the Atlantic to the Pacific, known for its vast wilderness and multicultural cities."
+  },
+  {
+    "id": 5,
+    "country": "Australia",
+    "capital": "Canberra",
+    "description": "A sovereign country comprising the mainland of the Australian continent, famous for its unique wildlife and beaches."
+  }
+]

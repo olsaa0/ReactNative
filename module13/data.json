@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "animal": "Lion",
+    "group": "Mammal",
+    "description": "The king of the jungle."
+  },
+  {
+    "id": 2,
+    "animal": "Eagle",
+    "group": "Bird",
+    "description": "Fast predators."
+  },
+  {
+    "id": 3,
+    "animal": "Frog",
+    "group": "Amphibian",
+    "description": "Has a long tongue and hops around."
+  },
+  {
+    "id": 4,
+    "animal": "Salmon",
+    "group": "Fish",
+    "description": "Its meat used mostly for food often In Asian countries."
+  },
+  {
+    "id": 5,
+    "animal": "Cobra",
+    "group": "Reptile",
+    "description": "Dangerous snake that lets out venom from Its teeth."
+  }
+]

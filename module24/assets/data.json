@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Headphones",
+    "image": "https://unsplash.com",
+    "desc": "Premium over-ear wireless headphones with active noise cancellation and 40-hour battery life."
+  },
+  {
+    "id": "2",
+    "name": "Smart Watch",
+    "image": "https://unsplash.com",
+    "desc": "Fitness tracker with heart rate monitor, GPS, and water resistance up to 50 meters."
+  },
+  {
+    "id": "3",
+    "name": "Mechanical Keyboard",
+    "image": "https://unsplash.com",
+    "desc": "Tactile mechanical keyboard featuring customizable RGB backlighting and hot-swappable switches."
+  }
+]

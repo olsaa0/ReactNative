@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Headphones",
+    "image": "https://us.tonies.com/cdn/shop/files/Wired-Pink-Headphones-10003297-TB2Hero1.png?v=1774883294&width=1200",
+    "desc": "Premium over-ear wireless headphones with active noise cancellation and 40-hour battery life."
+  },
+  {
+    "id": "2",
+    "name": "Smart Watch",
+    "image": "https://stormwatches.com/cdn/shop/files/S-VION_ROSE_GOLD_PINK_02.jpg?v=1771595765&width=1946",
+    "desc": "Fitness tracker with heart rate monitor, GPS, and water resistance up to 50 meters."
+  },
+  {
+    "id": "3",
+    "name": "Mechanical Keyboard",
+    "image": "https://redragonshop.com/cdn/shop/products/pinkmechanicalkeyboard.png?v=1629445125&width=1946",
+    "desc": "Tactile mechanical keyboard featuring customizable RGB backlighting and hot-swappable switches."
+  },
+  {
+    "id": "4",
+    "name": "AirPods Pro",
+    "image": "https://craftbymerlin.com/cdn/shop/files/img-1_93ebd090-5ebb-4bbf-a9fc-5f21c4d9a12e.jpg?v=1750077057",
+    "desc": "True wireless earbuds with adaptive active noise cancellation, high-resolution spatial audio, and up to 40 hours of combined battery life."
+  },
+  {
+    "id": "5",
+    "name": "Horizon VR Headset",
+    "image": "https://i.etsystatic.com/15150961/r/il/2253e0/6435964732/il_fullxfull.6435964732_g950.jpg",
+    "desc": "An all-in-one standalone virtual reality headset with dual 4K micro-OLED displays, pass-through mixed reality, and ergonomic hand-tracking controllers."
+  },
+  {
+    "id": "6",
+    "name": "Fold Smartphone",
+    "image": "https://www.jbhifi.com.au/cdn/shop/files/903902-Product-0-I-639186392403083981.jpg?v=1783994857",
+    "desc": "A premium folding smartphone featuring an expansive flexible display, under-display camera arrays, and seamlessly integrated multitasking software."
+  }
+]
